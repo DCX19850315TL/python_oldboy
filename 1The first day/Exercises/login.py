@@ -17,4 +17,4 @@ while retry_count < retry_limit:
 
     for line in lock_check.readlines():
         if username in line:
-            sys.exit('你输入的用户名已经被锁定')
+            sys.exit('你输入的用户名')
