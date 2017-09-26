@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 #_*_ coding:utf-8 _*_
-#登陆帐号，看登陆的帐号是否被锁定，如果锁定返回稍后重试，如果没有锁定就到文件存储中匹配用户名和
-#密码，匹配成功打印登陆成功，匹配不成功显示请重新输入并显示可重试次数。
+#登陆帐号，看登陆的帐号是否被锁定，如果锁定返回稍后重试，如果没有锁定就到文件存储中匹配用户名和密码，匹配成功打印登陆成功，匹配不成功显示请重新输入并显示可重试次数。
 import os
 import sys
 
@@ -22,7 +21,7 @@ while retry_count < retry_limit:    #可以重新验证用户名或密码的次�
 
     password = raw_input('输入密码:')   #交互式输入密码
 
-    f = file(accout_file,'rb')  #以二进制只读模式读取accout_file文件
+    f = file(account_file,'rb')  #以二进制只读模式读取accout_file文件
     match_flag = False  #设置匹配是否成功的标志位，
     for line in f.readlines():  #循环读取account_file文件
         user,passwd = line.strip('\n').split()  #设置变量user和passwd为文件中格式化后的字符串
@@ -37,6 +36,7 @@ while retry_count < retry_limit:    #可以重新验证用户名或密码的次�
         retry_count += 1    #重试次数加1
     else:
         print '匹配成功，登陆系统'
+        sys.exit()
 else:
     print '您的用户已经被锁定，请稍后再试' #超过重试次数，打印用户被锁定
     f = file(lock_file,'ab')    #以追加的方式打开lock_file文件
