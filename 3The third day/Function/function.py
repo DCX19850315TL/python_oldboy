@@ -53,6 +53,7 @@ foo('e','上海','ee')
 '''
 
 #函数的可变参数
+'''
 def show(*args):
     for item in args:
         print item
@@ -65,5 +66,8 @@ def show2(**kargs):
 dict = {'a':1,'b':2}
 show2(**dict)   #先定义字典，再将字典传入到函数之中
 #show2(aa='111',bb='222')    #将这些字符串变为字典传入到函数之中
+'''
 
+from file import demo
+reload(demo)
 

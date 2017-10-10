@@ -6,6 +6,9 @@
 @file: demo.py
 @time: 2017/9/28 15:06
 '''
+'''
 def foo():
     print 'file'
 print __name__
+'''
+print 'abc'
