@@ -16,3 +16,5 @@ import temp #导入模块
 reload(temp)    #重新导入模块
 id()    #查看对应的变量内存地址
 '''
+
+print max([1,2,3])
