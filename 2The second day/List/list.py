@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 #_*_ coding:utf-8 _*_
+#列表是有序的,可以进行增删该查.
 #找出列表中2的下标位有几个,并显示下标位置.
 import sys
 
