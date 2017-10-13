@@ -7,3 +7,6 @@
 @time: 2017/10/13 17:35
 '''
 import hashlib
+hash = hashlib.md5()
+hash.update('admin')
+print hash.hexdigest()
