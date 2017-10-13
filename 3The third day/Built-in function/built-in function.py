@@ -120,3 +120,9 @@ temp = 'sys'
 model = __import__(temp)
 print(model.path)
 '''
+
+__import__()    #通过字符串的形式导入模块
+getattr()       #以字符串的形式执行函数
+hasattr()       #判断模块中是否有函数
+delattr()       #删除模块中的函数
+

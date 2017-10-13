@@ -6,14 +6,16 @@
 @file: index.py
 @time: 2017/10/12 22:40
 '''
-'''
+
 temp = 'mysqlconnect'
 model = __import__(temp)
 model.count
-'''
 
+
+'''
 temp = 'mysqlconnect'
 func = 'count'
 model = __import__(temp)
 Function = getattr(model,func)
 print Function()
+'''
