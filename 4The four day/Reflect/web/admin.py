@@ -3,7 +3,8 @@
 '''
 @author: tanglei
 @contact: tanglei_0315@163.com
-@file: decorator.py
-@time: 2017/10/16 16:50
+@file: admin.py
+@time: 2017/10/16 14:59
 '''
-a
+def manager():
+    print '欢迎登录到后台'

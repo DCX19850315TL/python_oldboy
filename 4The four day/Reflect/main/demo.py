@@ -3,7 +3,9 @@
 '''
 @author: tanglei
 @contact: tanglei_0315@163.com
-@file: decorator.py
-@time: 2017/10/16 16:50
+@file: demo.py
+@time: 2017/10/16 11:47
 '''
-a
+
+def foo():
+    print 'demo'
