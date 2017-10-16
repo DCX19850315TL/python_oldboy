@@ -6,4 +6,3 @@
 @file: decorator.py
 @time: 2017/10/16 16:50
 '''
-a
