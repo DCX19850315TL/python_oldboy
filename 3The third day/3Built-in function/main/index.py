@@ -16,6 +16,6 @@ model.count
 temp = 'mysqlconnect'
 func = 'count'
 model = __import__(temp)
-Function = getattr(model,func)
-print Function()
+1Function = getattr(model,func)
+print 1Function()
 '''
