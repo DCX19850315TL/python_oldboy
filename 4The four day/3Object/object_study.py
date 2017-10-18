@@ -179,3 +179,47 @@ son2 = son()
 son2.sonn() #子类对象的方法
 son2.Fa()   #子类继承父类对象的方法
 son2.Bad()  #子类继承父类方法后，子类的对象方法将父类的方法修改掉
+
+#类的多继承
+class A(object):    #新式类解决掉经典类的BUG
+    def __init__(self):
+        print 'This is A'
+    def save(self):
+        print 'save method from A'
+
+class B(A):
+    def __init__(self):
+        print 'This is B'
+
+class C(A):
+    def __init__(self):
+        print 'This is C'
+    def save(self):
+        print 'save method from --C--'
+
+class D(B,C):
+    def __init__(self):
+        print 'This is D'
+
+c = D()
+c.save()
+
+#抽象类
+#抽象类+抽象方法 = 接口(第二种接口，即：规范)
+from abc import ABCMeta,abstractmethod
+
+class Alert:
+    __metaclass__ = ABCMeta
+
+    @abstractmethod
+    def Send(self):pass
+
+class Weixin(Alert):
+    def __init__(self):
+        print '__init__'
+
+    def Send(self):
+        print 'send.Weixin'
+
+f = Weixin()
+f.Send()
