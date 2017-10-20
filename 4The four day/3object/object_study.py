@@ -50,7 +50,7 @@ class Province(object):     #继承object
     def Foo():
         print '每个省都带头反腐'
 
-    #特性
+    #特性:有私有字段的时候才用@property，控制权限。没有私有字段的时候就不用@property。
     @property
     def Bar(self):
         print self.Name
@@ -143,6 +143,7 @@ f1()    #执行类的__call__方法
 #父类，子类或者叫基类，派生类
 #有object的叫做新式类，没有object的叫做经典类
 #新式类比经典类提供的内容多一些
+#经典类没有只读可写的控制，新式类是有只读可写的控制
 class father(object):
 
     def __init__(self):

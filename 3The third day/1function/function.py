@@ -58,14 +58,14 @@ def show(*args):
     for item in args:
         print item
 
-show('aa','bb','cc')    #将这些字符串变为列表传入到函数之中
+show('1lastreview','bb','cc')    #将这些字符串变为列表传入到函数之中
 
 def show2(**kargs):
     for item in kargs.items():
         print item
 dict = {'a':1,'b':2}
 show2(**dict)   #先定义字典，再将字典传入到函数之中
-#show2(aa='111',bb='222')    #将这些字符串变为字典传入到函数之中
+#show2(1lastreview='111',bb='222')    #将这些字符串变为字典传入到函数之中
 '''
 
 from file import demo

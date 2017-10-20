@@ -23,14 +23,14 @@ print re
 '''
 
 '''
-def aa():
+def 1lastreview():
     yield 1
     yield 2
     yield 3
     yield 4
     yield 5
 
-for item in aa():
+for item in 1lastreview():
     print item
 '''
 
@@ -78,9 +78,9 @@ temp = lambda x,y:x+y
 print temp(4,10)
 
 #Lambda表达式的原始写法
-def aa(x,y):
+def 1lastreview(x,y):
     return x+y
-print aa(44,100)
+print 1lastreview(44,100)
 '''
 print([x*2 for x in range(10)])
 print(map(lambda x:x*2, range(10)))

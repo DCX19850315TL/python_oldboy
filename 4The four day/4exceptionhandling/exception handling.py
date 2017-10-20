@@ -13,8 +13,8 @@ login = raw_input('输入:')
 array = login.split('/')
 try:
     model = __import__('web.'+array[0])
-    aa = getattr(model,array[0])
-    func = getattr(aa,array[1])
+    1lastreview = getattr(model,array[0])
+    func = getattr(1lastreview,array[1])
     func()
 #except (ImportError,AttributeError),e:  #捕捉两个错误
     #print e
