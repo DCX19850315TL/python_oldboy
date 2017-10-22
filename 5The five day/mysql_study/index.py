@@ -97,6 +97,7 @@ conn.close()
 print reCount
 print data
 '''
+'''
 import MySQLdb
 
 conn = MySQLdb.connect(host='localhost',user='root',passwd='123456',db='08day5')
@@ -114,6 +115,24 @@ print data
 #cur.scroll(-1,mode='relative')     #相对定位
 #cur.scroll(0,mode='absolute')   #绝对定位
 
+
+cur.close()
+conn.close()
+'''
+import MySQLdb
+
+conn = MySQLdb.connect(host='localhost',user='root',passwd='123456',db='08day5')
+cur = conn.cursor()
+
+sql = 'insert into media (media) values(%s)'
+params = ('/usr/bin/aa',)
+reCount = cur.execute(sql,params)
+conn.commit()
+new_id = cur.lastrowid
+sql = 'insert into content (title,content,media_id) values(%s,%s,%s)'
+params = ('test','content',new_id)
+reCount = cur.execute(sql,params)
+conn.commit()
 
 cur.close()
 conn.close()
