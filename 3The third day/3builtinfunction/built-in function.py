@@ -101,7 +101,7 @@ print temp
 '''
 a = [1,2,3]
 b = [4,5,6]
-c = [7,8,9]
+c = [7exercises,8,9]
 temp = zip(a,b,c)
 print temp
 '''

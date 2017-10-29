@@ -8,21 +8,21 @@
 '''
 from threading import Thread
 import time
-
+'''
 class MyThread(Thread):
 
-    def run(self):
+    def run(self):  #run方法执行指定的函数
         time.sleep(1)
         print '我是线程'
 
 def Bar():
     print 'bar'
 
-t1 = MyThread(target=Bar)
+t1 = MyThread(target=Bar)   #执行从Thread类中继承来的构造函数
 t1.start()
 print 'over'
-
 '''
+
 class MyThread(Thread):
 
     def run(self):
@@ -35,4 +35,4 @@ def Bar():
 t1 = MyThread(target=Bar)
 t1.start()
 print 'over'
-'''
+
