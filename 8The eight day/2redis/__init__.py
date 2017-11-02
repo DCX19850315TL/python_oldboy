@@ -3,8 +3,6 @@
 '''
 @author: tanglei
 @contact: tanglei_0315@163.com
-@file: multiprocess_study1.py
-@time: 2017/10/29 17:37
+@file: __init__.py.py
+@time: 2017/11/2 11:04
 '''
-#对主机分组管理
-#批量下发命令

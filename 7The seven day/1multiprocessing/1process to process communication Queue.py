@@ -3,7 +3,7 @@
 '''
 @author: tanglei
 @contact: tanglei_0315@163.com
-@file: multi1.py
+@file: １process to process communication Queue.py
 @time: 2017/10/30 17:49
 '''
 #from multiprocessing import Process,Queue

@@ -3,7 +3,7 @@
 '''
 @author: tanglei
 @contact: tanglei_0315@163.com
-@file: index.py
+@file: multiprocess_study1.py
 @time: 2017/9/28 15:31
 '''
 from file import demo

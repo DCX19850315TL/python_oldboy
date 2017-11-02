@@ -3,9 +3,10 @@
 '''
 @author: tanglei
 @contact: tanglei_0315@163.com
-@file: multi2.py
+@file: process to process communication lock.py
 @time: 2017/10/30 18:11
 '''
+#多进程是不会用的
 from multiprocessing import Process, Lock
 
 def f(l, i):

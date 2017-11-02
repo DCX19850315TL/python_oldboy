@@ -3,7 +3,7 @@
 '''
 @author: tanglei
 @contact: tanglei_0315@163.com
-@file: multiprocess_study.py
+@file: multiprocess_study2.py
 @time: 2017/10/30 16:43
 '''
 from multiprocessing import Process

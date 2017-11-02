@@ -3,7 +3,7 @@
 '''
 @author: tanglei
 @contact: tanglei_0315@163.com
-@file: index.py
+@file: multiprocess_study1.py
 @time: 2017/10/25 14:37
 '''
 from threading import Thread
