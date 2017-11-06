@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>页面二</title>
+
+        <link rel="stylesheet" href="11css.css">   <!--通过外部引入的方式使用css-->
+
+        <!--通过元素内联的方式使用css-->
+        <style>
+            .logo{
+                background-color: red;font-size: 18px;border: 1px solid #ffffff;
+            }
+
+            .logo a{
+                <!--.logo包含的a标签-->
+            }
+
+            #alex{
+                background-color: red;font-size: 18px;border: 1px solid #ffffff;
+            }
+            a,div{
+                color:red;  <!--所有的div标签和a标签都是红色-->
+            }
+            a div{
+                <!--a标签包含的div标签-->
+            }
+            input[type='text']{
+
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <!--通过内部嵌入的方式使用css-->
+        <div style="background-color: red;font-size:18px;border: 1px solid #ffffff ">123</div>
+        <div style="background-color: red">123</div>
+
+        <div class="logo">123</div>
+        <div class="logo">123</div>
+
+        <div id="alex">123</div>
+    </body>
+</html>

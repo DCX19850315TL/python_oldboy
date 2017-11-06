@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>页面一</title>
+    </head>
+
+    <body>
+        <!--
+        <div>alex1</div>    <!--块级标签，占一整行-->
+        <!--
+        <div>alex2</div>
+        <span>shopping1</span>   <!--内联标签，只占所使用的大小-->
+        <!--
+        <span>shopping2</span>
+        -->
+
+        <!--
+        <div>&lt;div&gt;&nbsp;</div>    <!--尖括号和空格的符号-->
+
+        <!--
+        <p>ddddddddddddd</p>    <!--#段落标签-->
+        <!--
+        <p>ddddddddddddd</p>
+
+        <div>ddddddddddddddd<br/>ddddddddddddddd</div>   <!--换行-->
+
+        <!--<a href="http://etiantian.org" target="_blank" hehe='tanglei'>老男孩</a>  <!--跳转,并且自定义标签-->
+
+        <!--
+        目录:
+        <div>
+            <a href="#id1">第一章</a>
+            <a href="#id2">第二章</a>
+            <a href="#id3">第三章</a>
+        </div>-->
+        <!--
+        内容:
+        <div id="id1">
+            <p>第一章内容</p>
+        </div>
+        <div id="id2" style="height: 1000px;background-color: red">第二章内容</div>
+        <div id="id3" style="height: 500px;background-color: cyan">第三章内容</div>
+        -->
+        <!--
+        <h1>dddddd</h1>     <!--字体大小-->
+        <!--
+        <h6>dddddd</h6>
+        -->
+        <!--
+        <select>    <!--select标签,可进行选择-->
+        <!--
+            <option value="1">北京</option>
+            <option value="2">上海</option>
+            <option value="3" selected="selected">广州</option>
+        </select>
+        <select size="4">   <!--无法多选的select-->
+        <!--
+            <option>上海</option>
+            <option>北京</option>
+            <option>广州</option>
+            <option>广州</option>
+        </select>
+        <select multiple="multiple" size="3">   <!--可多选的select-->
+        <!--
+            <option>上海</option>
+            <option>北京</option>
+            <option>广州</option>
+            <option>广州</option>
+        </select>
+        <select>    <!--select分组标签-->
+        <!--
+        <optgroup label="河北省">
+                <option>石家庄</option>
+                <option>承德</option>
+            </optgroup>
+            <optgroup label="山东省">
+                <option>青岛</option>
+                <option>济南</option>
+            </optgroup>
+        </select>
+
+        <br><br>
+        文本框:
+        <input type="text">     <!--输入框-->
+        <br><br>
+        密码输入框:
+        <input type="password">
+        <br><br>
+        多选框:
+        <input type="checkbox">
+        <input type="checkbox">
+        <br><br>
+        单选框:
+        男:<input type="radio" name="gender">
+        女:<input type="radio" name="gender">
+        <br><br>
+        按钮:
+        <input type="button" value="提交">
+        <br>
+        按钮:
+        <input type="submit" value="提交">
+        <br><br>
+        上传文件:
+        <input type="file">
+        <br><br>
+        多行输入:
+        <textarea>dddd</textarea>
+
+        表单:
+        <form action="/" method="post">   <!--提交的哪里-->
+            Name:<input name='username' type="text">
+            <br><br>
+            pwd:<input name='pwd' type="password">
+           <!-- <input type="button" onclick="alert(123)" value="提交">    <!--不提交表单，触发一个事件，点击后有可能是去使用一个js-->
+            <input type="submit" value="提交">    <!--提交表单，将内容提交到服务器端-->
+        </form>
+        <br><br>
+        label:
+        <label for="name2">姓名:<input id="name2"></label>
+
+        <br><br>
+        <ul>
+            <li>u1.li</li>
+        </ul>
+
+        <br><br>
+        <ol>
+            <li>ol.li</li>
+        </ol>
+
+        <br><br>
+        <dl>
+            <dt>河北省</dt>
+            <dd>承德</dd>
+        </dl>
+
+        <table border="1">  <!--边框-->
+            <tr>
+                <th>IP</th>     <!--表格顶部标题-->
+                <th>IDC</th>
+                <th>Status</th>
+            </tr>
+            <tr>     <!--行-->
+                <td>IP</td>     <!--列-->
+                <td>IDC</td>
+                <td>Status</td>
+            </tr>
+            <tr>     <!--行-->
+                <td>192.168.1.1</td>     <!--列-->
+                <td>北京</td>
+                <td>Online</td>
+            </tr>
+        </table>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>IP</th>     <!--表格顶部标题-->
+                    <th>IDC</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">IP</td>     <!--两列变为一列,左右进行合并-->
+                    <td>Status</td>
+                 </tr>
+                <tr>
+                    <td rowspan="2">IP</td>     <!--两行变为一行,上下进行合并-->
+                    <td>IDC</td>
+                    <td>Status</td>
+                 </tr>
+                 <tr>
+                    <td>IDC</td>
+                    <td>Status</td>
+                 </tr>
+            </tbody>
+        </table>
+
+        fieldset:
+        <fieldset>
+            <legend>登陆</legend>
+            <p>用户名:</p>
+            <p>密码:</p>
+        </fieldset>
+    </body>
+
+
+</html>
