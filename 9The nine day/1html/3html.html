@@ -13,7 +13,13 @@
             .logo a,p{
                 font-size: 56px;
             }
-
+            .clearfix:after{
+                content: ".";
+                display: block;
+                height: 0;
+                clear: both;
+                visibility: hidden;
+            }
         </style>
     </head>
 
@@ -37,8 +43,54 @@
         <div style="border: 1px solid red;height: 49px;border-top-style: dotted">    <!--边框-->
             aaa
         </div>
+        <br><br>
+        <div style="height: 200px;border: 1px solid red">
+            <div style="height: 30px;background-color:#999999;margin-top:23px;margin-left:23px;margin-right:23px">  <!--margin外边距-->
+                老男孩
+            </div>
+        </div>
 
+        <div style="height: 200px;border: 1px solid red">
+            <div style="height: 30px;background-color:#999999;padding-top:23px;padding-left: 23px;padding-right: 23px">     <!--margin内边距-->
+                老男孩
+            </div>
+        </div>
+        <br><br>
+        <span style="background-color: red">content</span>
+        <span style="display: block;background-color: red">content</span>   <!--内联标签转换为块级标签-->
+        <br><br>
+        <div style="background-color: red">content</div>
+        <div style="display: inline;background-color: red">content</div>    <!--块级标签转换为内联标签-->
+        <br><br>
+        <span style="cursor: pointer">pointer</span>
+        <span style="cursor: help">help</span>
+        <span style="cursor: wait">wait</span>
+        <br><br>
 
+        <div style="background-color: red;float: left;width: 50%">aaa</div>
+        <div style="background-color: green;float: left;width: 50%">bbb</div>  <!--堆叠-->
+        <br><br>
 
+        <div style="background-color: red" class="clearfix">
+            <div style="float: left">div1</div>
+            <div style="float: left">div2</div>
+        </div>
+        <br><br>
+
+        fixed    <!--位置固定-->
+        <div style="position: fixed;height: 45px;background-color: cyan;width: 100%;top: 0">fixed</div>
+        <div style="margin-top: 100px">
+            <div style="width: 200px;background-color: antiquewhite;position: fixed;top:60px;bottom: 0">left</div>
+            <div style="margin-left: 220px">
+                <p>123123</p>
+                <p>123123</p>
+            </div>
+        </div>
+        relative    <!--relative和absolute成对使用-->    absolute
+        <!--<div style="width: 200px;position: fixed;top: 0;left: 0;bottom: 0;background-color: red"></div>-->
+        <!--<div style="width: 200px;position: absolute;top: 0;left: 0;bottom: 0;background-color: red"></div>-->
+        <div style="position: relative;height: 400px;width: 200px">
+            <div style="width: 200px;position: absolute;top: 0;left: 0;bottom: 0;background-color: red"></div>
+        </div>
     </body>
 </html>
