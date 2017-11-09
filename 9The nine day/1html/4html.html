@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>页面四</title>
+        <style>
+            .shade{
+                position: fixed;
+                top:0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background-color: #999999;
+                opacity: 0.6;
+            }
+            .delete{
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                width: 400px;
+                height: 200px;
+                background-color: white;
+                margin-left: -200px;
+                margin-top: -100px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <table>
+            <tr>
+                <th>IP</th>
+                <th>编辑</th>
+            </tr>
+            <tr>
+                <td>11.11.11.11</td>
+                <td>删除</td>
+            </tr>
+            <tr>
+                <td>11.11.11.12</td>
+                <td>删除</td>
+            </tr>
+            <tr>
+                <td>11.11.11.13</td>
+                <td>删除</td>
+            </tr>
+        </table>
+
+        <!--遮照层开始-->
+        <div class="shade"></div>
+        <!--遮照层结束-->
+
+        <!--删除层开始-->
+        <div class="delete">
+            <div>提示</div>
+            <div>确定要删除吗？</div>
+            <div>
+                <input type="button" value="取消">
+                <input type="button" value="确定">
+            </div>
+        </div>
+         <!--删除层结束-->
+    </body>
+</html>
