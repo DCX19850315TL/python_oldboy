@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>JS页面一</title>
+    </head>
+
+    <body>
+        <div id="t1">aaaaaaaa <a>dfadfa<p>dfadfas</p></a></div>
+        <hr>
+        <div name="n1">adfa<a>dfdfa<p>dfdsfd</p></a></div>
+        <hr>
+        <div name="n1">adfa<a>dfdfa<p>dfdsfd</p></a></div>
+
+        <script src="js/oldboy.js"></script>
+
+        <script type="text/javascript"> //当前页面调用js方法，并且script要放到页面body的最下面.css和js都放到各自的文件夹下面，让html文件置于最外面以方便调试。
+            //alert('alex')
+            /*
+            var id1 = document.getElementById('t1');
+            //id1.innerText = 'alex'
+            console.log(id1)
+            id1.innerHTML = 'alex'
+            */
+            var names = document.getElementsByName('n1')
+            for(var items in names){
+                names[items].innerText = 'alex'
+            }
+        </script>
+    </body>
+</html>

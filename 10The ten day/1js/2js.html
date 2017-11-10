@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>JS页面二</title>
+        <style>
+            .show{
+
+            }
+            .hide{
+                display: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="t1" class="show" name="alex">内容</div>
+
+        <div id="t2" style="width: 500px;height: 200px;border: 22px"></div>
+
+        <script src="js/oldboy.js"></script>
+
+        <script type="text/javascript">
+            /*
+            var tag = document.createElement("a");
+            tag.href = 'http://www.autohome.com.cn';
+            tag.innerText = '点我啊';
+
+            var id1 = document.getElementById('t1')
+            id1.appendChild(tag)
+            */
+
+            /*
+            var tag = "<a href='http://baidu.com'>aaa</a>"
+            var id1 = document.getElementById('t1');
+            id1.innerHTML= tag;
+            */
+            /*
+            var id1 = document.getElementById('t1');
+            id1.className = 'hide'
+            */
+            var id1 = document.getElementById('t1');
+            console.log(id1.getAttribute('name'));
+            id1.setAttribute('name','oldboy');
+            console.log(id1.getAttribute('name'));
+        </script>
+    </body>
+</html>
