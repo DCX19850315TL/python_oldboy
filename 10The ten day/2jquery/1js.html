@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>JS页面一</title>
+        <style>
+            .c1{
+                border: 2px solid red;
+            }
+            .c2{
+                font-size: 58px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="id1">111<a>12</a></div>
+
+        <input name='username' type="text" value="9999">
+
+        <input name='username' type="checkbox" value="9999" >
+
+        <hr>
+
+        <div class="c1">dddddddd</div>
+        <div class="c1">dfadfdsafas</div>
+        <div class="c1">cxcxzczxczx</div>
+
+        <input onclick="Foo();" type="button" value="点我啊">
+
+        <script src="js/jquery-1.8.2.js"></script>
+        <!--script src="js/oldboy.js"></script-->
+        <script type="text/javascript">
+            /*
+            var text = $('#id1').text();    //取值
+            var html = $('#id1').html();
+            console.log(text);
+            console.log(html);
+            $('#id1').text('alex')  //赋值
+            */
+            /*
+            var data = $("input[name='username']").val()    //取值
+            console.log(data);
+            $("input[name='username']").val('aaa')    //赋值
+            */
+            /*
+            var data = $("input[name='username']").attr('name')
+            console.log(data);
+            $("input[name='username']").attr('haha')
+            */
+            /*
+            $("input[type=checkbox]").prop("checked",true)
+            */
+            function Foo() {
+                $(".c1").toggleClass('c2');
+            }
+        </script>
+
+    </body>
+</html>

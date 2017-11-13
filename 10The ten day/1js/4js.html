@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>JS页面四</title>
+    </head>
+
+    <body>
+        <div style="width: 500px;background-color: #999999">
+            <div id='process' style="width: 10%;height:100px;background-color: green"></div>
+        </div>
+
+        <script type="text/javascript">
+            pro = 10;
+            function Foo() {
+                var id = document.getElementById('process');
+                pro = pro + 10;
+                if(pro > 100){
+                    clearInterval(interval)
+                }else{
+                    id.style.width = pro+'%';
+                }
+            }
+            interval = setInterval('Foo()',500);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>JS页面二</title>
+        <style>
+            .returnTop{
+                position: fixed;
+                width:50px;
+                height: 60px;
+                right: 20px;
+                bottom: 20px;
+                background-color: red;
+                color: white;
+            }
+            .hide{
+                display: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="return_Top" class="returnTop hide" onclick="GO();">返回顶部</div>
+
+        <div style="height: 3000px;">aaa</div>
+
+        <script src="js/jquery-1.8.2.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                //当页面加载完成之后,默认执行该函数
+                $('#return_Top').click(function () {
+                    $(window).scrollTop(0)
+                })
+            })
+            $(window).scroll( function() {
+                    //console.log(123);
+                var height = $(window).scrollTop();
+                //console.log(height)
+                if(height>0){
+                    $('#return_Top').removeClass('hide')
+                }else{
+                    $('#return_Top').addClass('hide')
+                }
+                } );
+
+                function GO() {
+                    $(window).scrollTop(0);
+                }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>JS页面四</title>
+        <script type="text/javascript">
+            function GO() {
+                var content = document.title;
+                var firstChar = content.charAt(0);
+                var sub = content.substring(1,content.length)
+                document.title = sub + firstChar;
+            }
+            setInterval('GO()',1000);
+        </script>
+    </head>
+
+    <body>
+
+
+    </body>
+</html>
