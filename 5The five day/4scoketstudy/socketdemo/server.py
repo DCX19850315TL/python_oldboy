@@ -3,7 +3,7 @@
 '''
 @author: tanglei
 @contact: tanglei_0315@163.com
-@file: server.py
+@file: server1.py
 @time: 2017/10/23 17:17
 '''
 import socket

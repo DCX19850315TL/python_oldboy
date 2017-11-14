@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>JS页面七</title>
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+        <style>
+            .hide{
+                display: none;
+            }
+            .color{
+                background-color: red;
+            }
+        </style>
+    </head>
+    <!--菜单栏-->
+    <body>
+        <div class="z">
+            <div class="title">MENU1<i class="fa fa-address-book" aria-hidden="true"></i></div>
+            <div class="body">
+                <a href="https://www.baidu.com">connect1</a>
+                <a href="https://www.baidu.com">connect2</a>
+                <a href="https://www.baidu.com">connect3</a>
+            </div>
+            <div class="title">MENU2</div>
+            <div class="body hide">
+                <a href="https://www.baidu.com">connect1</a>
+                <a href="https://www.baidu.com">connect2</a>
+                <a href="https://www.baidu.com">connect3</a>
+            </div>
+            <div class="title">MENU3</div>
+            <div class="body hide">
+                <a href="https://www.baidu.com">connect1</a>
+                <a href="https://www.baidu.com">connect2</a>
+                <a href="https://www.baidu.com">connect3</a>
+            </div>
+        </div>
+        <script src="js/jquery-1.8.2.js"></script>
+        <script type="text/javascript">
+            function () {
+                $('.title').click(function(){
+                    $(this).removeClass(hide);
+                    $(this).parent().siblings().children('body').addClass('hide')
+                })
+            }
+        </script>
+    </body>
+</html>

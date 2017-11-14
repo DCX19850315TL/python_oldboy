@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>JS页面四</title>
+        <style>
+            .gray{
+                color:gray;
+            }
+            .black{
+                color:black;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <input type="text" class="gray" id="tip" value="请输入关键字">
+        <!--onfocus:得到焦点,onblur:失去焦点-->
+        <script src="js/jquery-1.8.2.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $('#tip').focus(function () {
+                    var id = $(this);
+
+                    id.attr('class','black');
+
+                    if(id.val()=='请求输入关键字'||id.val().trim()==''){
+                        id.val('');
+                    }
+                });
+                $('#tip').blur(function () {
+                    var id=$(this);
+
+                    var val = id.val();
+
+                    if(val.length==0||id.val().trim()==''){
+                        id.val('请输入关键字');
+                        id.attr('class','gray');
+                    }else{
+                        id.attr('class','black');
+                    }
+                })
+            })
+        </script>
+    </body>
+</html>
