@@ -3,8 +3,6 @@
 '''
 @author: tanglei
 @contact: tanglei_0315@163.com
-@file: Admin.py
-@time: 2017/10/16 14:59
+@file: __init__.py.py
+@time: 2017/11/15 16:28
 '''
-def manager():
-    print '欢迎登录到后台'

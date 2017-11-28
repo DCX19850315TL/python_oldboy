@@ -6,6 +6,9 @@
 @file: server2.py
 @time: 2017/11/14 22:09
 '''
+#controller模块:业务逻辑处理
+#model模块:对数据库操作
+#view模块:放html文件
 from wsgiref.simple_server import make_server
 
 def index():

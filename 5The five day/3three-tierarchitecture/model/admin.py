@@ -3,7 +3,7 @@
 '''
 @author: tanglei
 @contact: tanglei_0315@163.com
-@file: admin.py
+@file: Admin.py
 @time: 2017/10/23 11:44
 '''
 from utility.sql_helper import MySqlHelper

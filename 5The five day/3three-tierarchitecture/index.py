@@ -10,8 +10,8 @@
 #数据访问层
 #业务处理层
 #表示层，UI层
-#执行顺序：index——model(admin.py)——utility(sql_helper.py)——数据库(mysql)
-#multiprocess_study1.py：主程序
+#执行顺序：index——model(Admin.py)——utility(sql_helper.py)——数据库(mysql)
+#index.py：主程序
 #conf.py：配置文件
 #model模块：数据库中有几张表，这里就要有几个文件
 #utility模块：公共的功能，比如对数据库的操作
