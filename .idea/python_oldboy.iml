@@ -4,7 +4,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 2.7.12 (D:\2Develop\python2.7\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="audit" />
     <orderEntry type="module" module-name="django_08day11" />
     <orderEntry type="module" module-name="django_08day13" />
     <orderEntry type="module" module-name="operation_platform" />
