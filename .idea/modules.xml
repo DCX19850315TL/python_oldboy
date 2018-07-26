@@ -3,11 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../cmdb_client/.idea/cmdb_client.iml" filepath="$PROJECT_DIR$/../cmdb_client/.idea/cmdb_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmdb_client_new/.idea/cmdb_client_new.iml" filepath="$PROJECT_DIR$/../cmdb_client_new/.idea/cmdb_client_new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmdb_salt_client/.idea/cmdb_salt_client.iml" filepath="$PROJECT_DIR$/../cmdb_salt_client/.idea/cmdb_salt_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmdb_salt_server/.idea/cmdb_salt_server.iml" filepath="$PROJECT_DIR$/../cmdb_salt_server/.idea/cmdb_salt_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/../cmdb_server/.idea/cmdb_server.iml" filepath="$PROJECT_DIR$/../cmdb_server/.idea/cmdb_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmdb_server_new/.idea/cmdb_server_new.iml" filepath="$PROJECT_DIR$/../cmdb_server_new/.idea/cmdb_server_new.iml" />
       <module fileurl="file://$PROJECT_DIR$/../django_08day11/.idea/django_08day11.iml" filepath="$PROJECT_DIR$/../django_08day11/.idea/django_08day11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../django_08day12/.idea/django_08day12.iml" filepath="$PROJECT_DIR$/../django_08day12/.idea/django_08day12.iml" />
       <module fileurl="file://$PROJECT_DIR$/../django_08day13/.idea/django_08day13.iml" filepath="$PROJECT_DIR$/../django_08day13/.idea/django_08day13.iml" />
       <module fileurl="file://$PROJECT_DIR$/../operation_platform/.idea/operation_platform.iml" filepath="$PROJECT_DIR$/../operation_platform/.idea/operation_platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/python_oldboy.iml" filepath="$PROJECT_DIR$/.idea/python_oldboy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ulb_manager/.idea/ulb_manager.iml" filepath="$PROJECT_DIR$/../ulb_manager/.idea/ulb_manager.iml" />
     </modules>
   </component>
 </project>

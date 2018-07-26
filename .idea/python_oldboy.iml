@@ -9,6 +9,12 @@
     <orderEntry type="module" module-name="operation_platform" />
     <orderEntry type="module" module-name="cmdb_client" />
     <orderEntry type="module" module-name="cmdb_server" />
+    <orderEntry type="module" module-name="django_08day12" />
+    <orderEntry type="module" module-name="ulb_manager" />
+    <orderEntry type="module" module-name="cmdb_client_new" />
+    <orderEntry type="module" module-name="cmdb_salt_client" />
+    <orderEntry type="module" module-name="cmdb_salt_server" />
+    <orderEntry type="module" module-name="cmdb_server_new" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

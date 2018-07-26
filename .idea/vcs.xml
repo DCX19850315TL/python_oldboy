@@ -2,8 +2,13 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../cmdb_client_new" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../cmdb_salt_client" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../cmdb_salt_server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../cmdb_server_new" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../django_08day11" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../django_08day13" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../operation_platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../ulb_manager" vcs="Git" />
   </component>
 </project>
